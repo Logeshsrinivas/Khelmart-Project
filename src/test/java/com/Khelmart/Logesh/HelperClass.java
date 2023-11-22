@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.*;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,6 +28,7 @@ public class HelperClass {
 	  HelperClass(String browser){
 		if(browser.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
+			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 			driver = new ChromeDriver(options);
 		}else if(browser.equalsIgnoreCase("edge")) {
 			EdgeOptions options = new EdgeOptions();

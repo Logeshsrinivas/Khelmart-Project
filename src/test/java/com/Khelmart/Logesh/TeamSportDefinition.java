@@ -10,6 +10,7 @@ public class TeamSportDefinition {
 	TeamSportAction act = new TeamSportAction();
 	@When("user select cricket bat under Team Sport Category")
 	public void user_select_cricket_bat_under_team_sport_category() {
+		HelperClass.log.getClass();
 		HelperClass.OpenPage(data.url);
 	 act.clickTeamSport();
 	 HelperClass.log.info("USer clicks Team sport");

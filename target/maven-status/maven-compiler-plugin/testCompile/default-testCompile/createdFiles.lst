@@ -1,8 +1,6 @@
 com\Khelmart\Logesh\HelperClass.class
 com\Khelmart\Logesh\FileExternalReader.class
-com\Khelmart\Logesh\RegisterRunner.class
 com\Khelmart\Logesh\TeamSportAction.class
-com\Khelmart\Logesh\AddToCartRunner.class
 com\Khelmart\Logesh\ShippingLocator.class
 com\Khelmart\Logesh\AddToCartAction.class
 com\Khelmart\Logesh\ShippingAction.class
@@ -12,7 +10,6 @@ com\Khelmart\Logesh\TeamSportDefinition.class
 com\Khelmart\Logesh\AddToCartDefinition.class
 com\Khelmart\Logesh\AddToCartLocators.class
 com\Khelmart\Logesh\ShippingStepDefinition.class
-com\Khelmart\Logesh\TeamSportRunner.class
 com\Khelmart\Logesh\HookClass.class
 com\Khelmart\Logesh\RegisterDefinition.class
 com\Khelmart\Logesh\RegisterLocators.class

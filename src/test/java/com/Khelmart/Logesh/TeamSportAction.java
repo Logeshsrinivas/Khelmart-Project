@@ -28,16 +28,22 @@ public class TeamSportAction {
 		public void clickCricketBat() {
 			HelperClass.wait.until(ExpectedConditions.elementToBeClickable(loc.cricketBat));
 //			HelperClass.jse.executeScript("arguments[0].click()", loc.cricketBat);	
-			HelperClass.action.moveToElement(loc.cricketBat).click().build().perform();			
+			clickFunction(loc.cricketBat);		
 		}
 		public void clickPriceOption() {
-			HelperClass.jse.executeScript("arguments[0].click()", loc.price);		
+				javascriptClick(loc.price);
+		}
+		public void javascriptClick(WebElement webElement) {
+			HelperClass.jse.executeScript("arguments[0].click()", webElement);	
 		}
 		public void clickPriceSelect() {
-			HelperClass.action.moveToElement(loc.priceSelect).click().build().perform();			
+			clickFunction(loc.priceSelect);				
 		}
 		public void clickDesending() {
-			HelperClass.action.moveToElement(loc.desending).click().build().perform();			
+			clickFunction(loc.desending);		
+		}
+		public void clickFunction(WebElement webElement) {
+			HelperClass.action.moveToElement(webElement).click().build().perform();
 		}
 		public void getList() {
 			HelperClass.getDriver().navigate().refresh();

@@ -260,3 +260,107 @@
 [INFO ] 2023-11-21 18:05:14.508 [main] RegisterDefinition - Products search
 [INFO ] 2023-11-21 18:05:15.056 [main] RegisterDefinition - Added to caRT
 [INFO ] 2023-11-21 18:07:29.696 [main] RegisterDefinition - HomePage launched
+[INFO ] 2023-11-22 08:59:59.370 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 09:00:02.505 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 09:00:03.556 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 09:00:04.286 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 09:00:15.234 [main] RegisterDefinition - View cart
+[INFO ] 2023-11-22 09:00:15.437 [main] RegisterDefinition - List of product
+[INFO ] 2023-11-22 09:00:15.555 [main] RegisterDefinition - Remove product based on amount
+[INFO ] 2023-11-22 09:00:15.835 [main] RegisterDefinition - HomePage launched
+[INFO ] 2023-11-22 09:00:19.372 [main] RegisterDefinition - Create account page opened
+[INFO ] 2023-11-22 09:00:21.295 [main] RegisterDefinition - Manditory Data passed
+[INFO ] 2023-11-22 09:00:22.562 [main] RegisterDefinition - Account created succesfully
+[ERROR] 2023-11-22 09:00:35.604 [main] RegisterDefinition - HomePAge Launches
+[INFO ] 2023-11-22 09:00:36.731 [main] RegisterDefinition - User search data
+[INFO ] 2023-11-22 09:00:40.375 [main] RegisterDefinition - User clicks the product
+[INFO ] 2023-11-22 09:00:40.689 [main] RegisterDefinition - USer selects the product size
+[INFO ] 2023-11-22 09:00:42.929 [main] RegisterDefinition - USer selects the region
+[INFO ] 2023-11-22 09:00:48.639 [main] RegisterDefinition - USer clicks Team sport
+[INFO ] 2023-11-22 09:00:51.064 [main] RegisterDefinition - USer clicks cricket Bat
+[INFO ] 2023-11-22 09:00:51.185 [main] RegisterDefinition - USer CLick price option
+[INFO ] 2023-11-22 09:00:51.689 [main] RegisterDefinition - USer selects price
+[INFO ] 2023-11-22 09:22:21.961 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 09:22:25.701 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 09:22:29.386 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 09:22:29.975 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 09:22:46.899 [main] RegisterDefinition - HomePage launched
+[INFO ] 2023-11-22 09:22:49.268 [main] RegisterDefinition - Create account page opened
+[INFO ] 2023-11-22 09:22:50.061 [main] RegisterDefinition - Manditory Data passed
+[INFO ] 2023-11-22 09:22:51.313 [main] RegisterDefinition - Account created succesfully
+[ERROR] 2023-11-22 09:23:02.614 [main] RegisterDefinition - HomePAge Launches
+[INFO ] 2023-11-22 09:23:07.294 [main] RegisterDefinition - User search data
+[INFO ] 2023-11-22 09:23:10.280 [main] RegisterDefinition - User clicks the product
+[INFO ] 2023-11-22 09:23:10.657 [main] RegisterDefinition - USer selects the product size
+[INFO ] 2023-11-22 09:23:11.631 [main] RegisterDefinition - USer selects the region
+[INFO ] 2023-11-22 09:23:34.000 [main] RegisterDefinition - USer clicks Team sport
+[INFO ] 2023-11-22 09:23:34.819 [main] RegisterDefinition - USer clicks cricket Bat
+[INFO ] 2023-11-22 09:23:35.345 [main] RegisterDefinition - USer CLick price option
+[INFO ] 2023-11-22 09:23:35.839 [main] RegisterDefinition - USer selects price
+[INFO ] 2023-11-22 09:23:36.087 [main] RegisterDefinition - USer clicks desending button
+[INFO ] 2023-11-22 09:23:38.246 [main] RegisterDefinition - USer wites a products details in a FIle
+[INFO ] 2023-11-22 09:40:08.452 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 09:40:10.021 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 09:40:13.297 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 09:40:14.190 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 09:41:34.381 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 09:41:38.593 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 09:41:40.264 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 09:41:41.389 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 09:41:43.521 [main] RegisterDefinition - View cart
+[INFO ] 2023-11-22 09:41:43.960 [main] RegisterDefinition - List of product
+[INFO ] 2023-11-22 09:41:45.652 [main] RegisterDefinition - Remove product based on amount
+[INFO ] 2023-11-22 09:46:50.820 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 09:46:53.777 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 09:46:54.486 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 09:46:55.603 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 09:47:09.078 [main] RegisterDefinition - HomePage launched
+[INFO ] 2023-11-22 09:47:14.190 [main] RegisterDefinition - Create account page opened
+[INFO ] 2023-11-22 09:47:16.500 [main] RegisterDefinition - Manditory Data passed
+[INFO ] 2023-11-22 09:47:17.977 [main] RegisterDefinition - Account created succesfully
+[ERROR] 2023-11-22 09:47:35.037 [main] RegisterDefinition - HomePAge Launches
+[INFO ] 2023-11-22 09:47:38.669 [main] RegisterDefinition - User search data
+[INFO ] 2023-11-22 09:47:40.797 [main] RegisterDefinition - User clicks the product
+[INFO ] 2023-11-22 09:47:41.222 [main] RegisterDefinition - USer selects the product size
+[INFO ] 2023-11-22 09:47:42.808 [main] RegisterDefinition - USer selects the region
+[INFO ] 2023-11-22 09:47:45.085 [main] RegisterDefinition - USer clicks Team sport
+[INFO ] 2023-11-22 09:47:46.113 [main] RegisterDefinition - USer clicks cricket Bat
+[INFO ] 2023-11-22 09:47:46.556 [main] RegisterDefinition - USer CLick price option
+[INFO ] 2023-11-22 09:47:46.914 [main] RegisterDefinition - USer selects price
+[INFO ] 2023-11-22 09:47:47.169 [main] RegisterDefinition - USer clicks desending button
+[INFO ] 2023-11-22 09:47:48.676 [main] RegisterDefinition - USer wites a products details in a FIle
+[INFO ] 2023-11-22 10:31:07.893 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 10:31:12.213 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 10:31:16.293 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 10:31:16.960 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 10:32:27.837 [main] RegisterDefinition - HomePage launched
+[ERROR] 2023-11-22 10:34:40.717 [main] RegisterDefinition - HomePAge Launches
+[INFO ] 2023-11-22 10:34:46.830 [main] RegisterDefinition - User search data
+[INFO ] 2023-11-22 10:34:55.709 [main] RegisterDefinition - User clicks the product
+[INFO ] 2023-11-22 10:34:55.995 [main] RegisterDefinition - USer selects the product size
+[INFO ] 2023-11-22 10:34:57.554 [main] RegisterDefinition - USer selects the region
+[INFO ] 2023-11-22 10:35:56.173 [main] RegisterDefinition - USer clicks Team sport
+[INFO ] 2023-11-22 10:35:58.449 [main] RegisterDefinition - USer clicks cricket Bat
+[INFO ] 2023-11-22 10:35:58.557 [main] RegisterDefinition - USer CLick price option
+[INFO ] 2023-11-22 10:36:01.421 [main] RegisterDefinition - USer selects price
+[INFO ] 2023-11-22 10:36:01.566 [main] RegisterDefinition - USer clicks desending button
+[INFO ] 2023-11-22 10:36:06.047 [main] RegisterDefinition - USer wites a products details in a FIle
+[INFO ] 2023-11-22 10:43:53.669 [main] RegisterDefinition - Driver setUp Successfully
+[INFO ] 2023-11-22 10:43:57.196 [main] RegisterDefinition - HomePage Launches
+[INFO ] 2023-11-22 10:44:00.485 [main] RegisterDefinition - Products search
+[INFO ] 2023-11-22 10:44:01.313 [main] RegisterDefinition - Added to caRT
+[INFO ] 2023-11-22 10:44:07.252 [main] RegisterDefinition - View cart
+[INFO ] 2023-11-22 10:44:07.331 [main] RegisterDefinition - List of product
+[INFO ] 2023-11-22 10:44:07.451 [main] RegisterDefinition - Remove product based on amount
+[INFO ] 2023-11-22 10:44:08.204 [main] RegisterDefinition - HomePage launched
+[INFO ] 2023-11-22 10:44:10.715 [main] RegisterDefinition - Create account page opened
+[INFO ] 2023-11-22 10:44:11.588 [main] RegisterDefinition - Manditory Data passed
+[INFO ] 2023-11-22 10:44:13.820 [main] RegisterDefinition - Account created succesfully
+[INFO ] 2023-11-22 10:44:13.973 [main] RegisterDefinition - Aseert successful
+[ERROR] 2023-11-22 10:44:14.201 [main] RegisterDefinition - HomePAge Launches
+[INFO ] 2023-11-22 10:44:18.391 [main] RegisterDefinition - User search data
+[INFO ] 2023-11-22 10:44:20.058 [main] RegisterDefinition - User clicks the product
+[INFO ] 2023-11-22 10:44:20.572 [main] RegisterDefinition - USer selects the product size
+[INFO ] 2023-11-22 10:44:21.875 [main] RegisterDefinition - USer selects the region
+[INFO ] 2023-11-22 10:44:21.936 [main] RegisterDefinition - USer gives zip code
+[INFO ] 2023-11-22 10:44:22.019 [main] RegisterDefinition - USer calculates Shipping cost

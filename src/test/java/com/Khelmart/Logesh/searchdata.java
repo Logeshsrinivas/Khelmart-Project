@@ -35,7 +35,7 @@ public class searchdata {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		zip=prop.getProperty("zip");
+		zip=prop.getProperty("pin");
 		loginemail=prop.getProperty("email1");
 		username=prop.getProperty("username");
 		lastname=prop.getProperty("lastname");
