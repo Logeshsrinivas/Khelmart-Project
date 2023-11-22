@@ -15,6 +15,7 @@ public class ShippingStepDefinition {
 	
 	@Given("User Search the product with keyword.")
 	public void user_search_the_product_with_keyword() {
+		HelperClass.log.getClass();
 		HelperClass.OpenPage(data.url);
 		HelperClass.log.error("HomePAge Launches");
 	    shipact.searchProduct(data.search);

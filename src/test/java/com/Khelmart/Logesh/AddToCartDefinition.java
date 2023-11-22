@@ -7,10 +7,12 @@ import io.cucumber.java.en.When;
 
 
 public class AddToCartDefinition {
+	
 AddToCartAction act = new AddToCartAction();
 searchdata data= new searchdata();
 @When("User search prodcut with keyword")
 public void user_search_prodcut_with_keyword() {
+	HelperClass.log.getClass();
 	HelperClass.OpenPage(data.url);
 	HelperClass.log.info("HomePage Launches");
     act.searchproduct(data.search1);

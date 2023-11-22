@@ -9,10 +9,12 @@ import io.cucumber.java.en_old.Tha;
 
 
 public class RegisterDefinition {
+	
 		RegisterAction regac = new RegisterAction();
 		searchdata datas= new searchdata();
 	@Given("User should land in Khelmart Homepage")
 	public void user_should_land_in_khelmart_homepage() {
+		HelperClass.log.getClass();
 	  HelperClass.OpenPage(datas.url);
 		HelperClass.log.info("HomePage launched");
 
