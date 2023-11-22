@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 21, 2023 03:24:48 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User add product to cart and remove product from cart</p>
+            <p class="text-sm">
+              <span>3:24:49 PM</span> / <span>00:00:17:199</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User add product to cart and remove product from cart</h5>
+<span class='badge badge-success'>11.21.2023 3:24:49 PM</span>
+<span class='badge badge-danger'>11.21.2023 3:25:06 PM</span>
+<span class='badge badge-default'>00:00:17:199</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Add product to cart and remove</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Khelmart.Logesh.AddToCartDefinition.user_search_prodcut_with_keyword()">
+                <span>And User search prodcut with keyword</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.AddToCartDefinition.user_select_one_product_and_add_to_cart()">
+                <span>And User select one product and add to cart</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.AddToCartDefinition.user_sees_the_list_and_count_of_products()">
+                <span>And User Sees the list and count of products</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.AddToCartDefinition.user_remove_prodcut_from_cart_based_amount()">
+                <span>Then User remove prodcut from cart based amount</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Register a new customer in Khelmart Application</p>
+            <p class="text-sm">
+              <span>3:25:06 PM</span> / <span>00:00:07:555</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Register a new customer in Khelmart Application</h5>
+<span class='badge badge-success'>11.21.2023 3:25:06 PM</span>
+<span class='badge badge-danger'>11.21.2023 3:25:13 PM</span>
+<span class='badge badge-default'>00:00:07:555</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Register a new Customer</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Khelmart.Logesh.RegisterDefinition.user_should_land_in_khelmart_homepage()">
+                <span>Given User should land in Khelmart Homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.RegisterDefinition.user_clicks_account_and_in_that_clicks_new_customer()">
+                <span>When User clicks account and in that clicks new customer</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.RegisterDefinition.user_should_enter_username_lastname_email_password_confirm_password()">
+                <span>And User should enter username,lastname,email,password,confirm-password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.RegisterDefinition.user_clicks_create_account()">
+                <span>And User clicks create Account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.RegisterDefinition.user_able_to_see_account_registered_successfully_message()">
+                <span>Then User able to see account registered successfully message</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User needs to calculate Shipping Cost</p>
+            <p class="text-sm">
+              <span>3:25:13 PM</span> / <span>00:00:11:987</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User needs to calculate Shipping Cost</h5>
+<span class='badge badge-success'>11.21.2023 3:25:13 PM</span>
+<span class='badge badge-danger'>11.21.2023 3:25:25 PM</span>
+<span class='badge badge-default'>00:00:11:987</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>User select product and calculate shipping cost</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_search_the_product_with_keyword()">
+                <span>Given User Search the product with keyword.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_clicks_the_selected_product()">
+                <span>When User clicks the selected product</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_selects_the_size_of_product()">
+                <span>And User selects the size of Product</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_clicks_shipping_cost()">
+                <span>And User clicks Shipping cost</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_enters_region()">
+                <span>And User Enters region</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_enter_zip_code()">
+                <span>And User Enter Zip code</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_clicks_calculate()">
+                <span>And User Clicks Calculate</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.ShippingStepDefinition.user_able_to_see_shipping_cost()">
+                <span>Then User able to see Shipping Cost</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">List the Product by Selecting product Category</p>
+            <p class="text-sm">
+              <span>3:25:25 PM</span> / <span>00:00:12:795</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">List the Product by Selecting product Category</h5>
+<span class='badge badge-success'>11.21.2023 3:25:25 PM</span>
+<span class='badge badge-danger'>11.21.2023 3:25:38 PM</span>
+<span class='badge badge-default'>00:00:12:795</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>List the product by Category</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.Khelmart.Logesh.TeamSportDefinition.user_select_cricket_bat_under_team_sport_category()">
+                <span>When user select cricket bat under Team Sport Category</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.TeamSportDefinition.user_filter_porduct_ny_shopping_options()">
+                <span>And User filter porduct ny shopping options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.TeamSportDefinition.user_sort_prodcut_by_desending_order()">
+                <span>And User Sort prodcut by desending order</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.Khelmart.Logesh.TeamSportDefinition.user_print_the_list_of_product_and_check_product_count()">
+                <span>Then User print the list of product and check product count</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 21, 2023 03:24:48 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 21, 2023 03:25:38 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>21</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"User add product to cart and remove product from cart":17.199,"Register a new customer in Khelmart Application":7.555,"User needs to calculate Shipping Cost":11.987,"List the Product by Selecting product Category":12.795
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>version</td>
+<td>10</td>
+</tr>
+<tr>
+<td>os</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 4,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 21,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
